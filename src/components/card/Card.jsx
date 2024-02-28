@@ -20,7 +20,7 @@ export const Card = ({ dishName, dishId, dishImage }) => {
 
           <Link to={`/detalle-produicto/:${dishId}`}>
             <button class="flex  my-5 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-              Button
+              See more
             </button>
           </Link>
         </div>
