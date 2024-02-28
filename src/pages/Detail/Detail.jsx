@@ -1,9 +1,11 @@
-import React from 'react'
+import { useParams } from "wouter";
 
 export const Detail = () => {
-   
+  const { id } = useParams();
 
   return (
-    <div>Detalle Producto</div>
-  )
-}
+    <>
+      <h2>Detail</h2>
+    </>
+  );
+};
